@@ -1,0 +1,23 @@
+Chaoxi / 朝夕 1.0.0
+
+Derived from OwnSeek by cwenwensen and its contributors.
+Upstream source: https://github.com/cwenwensen/OwnSeek
+Retrieved commit prefix: a9a8da9 (2026-09-12)
+The upstream Apache License 2.0 is preserved in LICENSE.
+
+Modifications:
+- New native Compose companion UI and generated character illustrations.
+- Wen Yining and Lu Jingheng role definitions supplied by the user.
+- SQLite conversations and editable, user-confirmed long-term memory.
+- Android Keystore protection for the local DeepSeek credential.
+- Configurable WorkManager proactive messaging and notifications.
+- Custom companion generation and local JSON backup/restore.
+- Current DeepSeek request contract using thinking.type=disabled.
+
+The upstream API DTOs in app/src/upstream-api are reused by this app.
+Original source is retained in app/src/main/java for provenance and is
+excluded from the companion source set. The new implementation is in
+app/src/companion/java. This is an independent modification, not an
+official OwnSeek or DeepSeek distribution.
+
+Character artwork generated with the built-in image generation tool.
